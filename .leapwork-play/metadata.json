@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-19T05:39:27.059Z",
+  "repo": {
+    "connectorId": 708,
+    "repoSlug": "chsh-01/task1884",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 48046,
+    "displayId": "TM-1",
+    "name": "StagingValidations"
+  },
+  "tree": [
+    {
+      "assetId": 48047,
+      "displayId": "FD-1",
+      "name": "llmtelemetry",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 48129,
+          "displayId": "TC-2",
+          "name": "AfterFlagDelete",
+          "kind": "test-case",
+          "repoPath": "llmtelemetry/TC-2-AfterFlagDelete.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 48148,
+      "displayId": "FD-8",
+      "name": "Product Details and Cart Management",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 48149,
+          "displayId": "TC-11",
+          "name": "Add a product and verify cart details, totals, and session persistence",
+          "kind": "test-case",
+          "repoPath": "Product Details and Cart Management/TC-11-Add-a-product-and-verify-cart-details,-totals,-and-session-persistence.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 48211,
+      "displayId": "FD-9",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 48212,
+          "displayId": "FD-10",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 48213,
+              "displayId": "TS-1",
+              "name": "filterNavMenuSearch",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "assetId": 48129,
+      "assetKind": "test-case",
+      "displayId": "TC-2",
+      "name": "AfterFlagDelete",
+      "repoPath": "llmtelemetry/TC-2-AfterFlagDelete.spec.ts",
+      "parentAssetId": 48047
+    },
+    {
+      "assetId": 48149,
+      "assetKind": "test-case",
+      "displayId": "TC-11",
+      "name": "Add a product and verify cart details, totals, and session persistence",
+      "repoPath": "Product Details and Cart Management/TC-11-Add-a-product-and-verify-cart-details,-totals,-and-session-persistence.spec.ts",
+      "parentAssetId": 48148
+    },
+    {
+      "assetId": 48213,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "filterNavMenuSearch",
+      "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts",
+      "parentAssetId": 48212
+    }
+  ]
+}
